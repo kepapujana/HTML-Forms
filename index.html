@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El club viejuner</title>
+</head>
+<body>
+    <h1>El club viejuner Form</h1>
+    <img src="/form/img/abueletes.jpg" alt="abueletes" style="width: 40%;">
+    <form action="">
+        <fieldset>
+            <legend>Datos</legend>
+            <label for="fname">Nombre:</label><br>
+            <input type="text" name="fname" autofocus tabindex="1" placeholder="Kepa"><br>
+            <label for="lname">Apellidos:</label><br>
+            <input type="text" name="lname" tabindex="2" placeholder="Pujana"><br><br>
+
+            <label for="quantity">Edad:</label><br>
+            <input type="number" id="quantity" name="quantity" min="1" max="150"><br><br>
+
+            <label for="quantity" tabindex="3">Sexo:</label><br>
+            <input type="radio" id="masculino" name="fav_language" value="Masculino">
+            <label for="masculino">Masculino</label><br>
+            <input type="radio" id="femenino" name="fav_language" value="Femenino">
+            <label for="femenino">Femenino</label><br>
+            <input type="radio" id="ninguno" name="fav_language" value="Ninguno">
+            <label for="ninguno">Prefiero no poner</label><br><br>
+
+            <label for="quantity" tabindex="4">Me siento viejuner:</label><br>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> Si</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> No</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> A veces</label><br>
+            <input type="checkbox" id="vehicle4" name="vehicle3" value="Boat">
+            <label for="vehicle4"> Cuando no hago deporte</label><br><br>
+
+            <form>
+                Escribe algo sobre tí:<br>
+                <textarea name="explanation" dirname="explanation.dir" tabindex="5"></textarea><br><br>
+            </form>
+        </fieldset>
+
+        <fieldset>
+            <legend>Tus circunstancias</legend>
+            <form action="/form/form_robos.html">
+                <label for="email">Correo electrónico::</label>
+                <input type="email" id="email" name="email" tabindex="5"><br><br>
+
+                <label for="telefono">Telefono:</label>
+                <input type="tel" id="telefono" name="telefono" tabindex="6"><br><br>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit" tabindex="7">
+            </form>
+        </fieldset>
+    </form> 
+</body>
+</html>

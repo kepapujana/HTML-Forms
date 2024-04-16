@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los ladronzuelos de bicicletas</title>
+    <style>
+        body{
+            margin: 15px 25%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Los ladronzuelos de bicicletas</h1>
+    
+    <form>        
+        <label for="dia">Dia:</label>
+        <input type="date" id="dia" name="dia"><br><br>
+
+        <label for="appt">Hora:</label>
+        <input type="time" id="appt" name="appt"><br><br>
+
+        <label for="favcolor">Color de la bicicleta:</label>
+        <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br><br>
+
+        <label for="vol">Rango de precio (entre 1 y 1000):</label>
+        1€
+        <input type="range" id="vol" name="vol" min="0" max="10000">
+        1000€
+        <br><br>
+
+        <label for="bike">Tipo de bicicleta:</label>
+        <select name="bikes" id="bikes">
+            <optgroup label="Paseo">
+                <option value="Señorial">Señorial</option>
+                <option value="Anti-plebeyos">Anti-plebeyos</option>
+                <option value="Anti-plebeyos">PorEncimaDelHombro</option>
+            </optgroup>
+            <optgroup label="Montaña">
+                <option value="mercedes">Gamusinos</option>
+                <option value="audi">Hueleflores premium</option>
+                <option value="mercedes">Fango lover</option>
+            </optgroup>
+            <optgroup label="Carreras">
+                <option value="mercedes">Metroymedio</option>
+                <option value="audi">3 de la tarde. Fluorescente edition</option>
+                <option value="mercedes">Grupitors</option>
+            </optgroup>
+        </select>
+        <br><br>
+
+        <label for="Accesorios">Accesorios:</label>
+        <select name="Accesorios" id="Accesorios" multiple>
+            <option value="Ruedines">Ruedines</option>
+            <option value="Pegatinas">Pegatinas</option>
+            <option value="Cestita">Cestita</option>
+            <option value="Bomba de aire">Bomba de aire</option>
+            <option value="Timbre">Timbre</option>
+            <option value="Foco">Foco</option>
+        </select>
+        <br><br>
+
+        <label for="browser">¿Qué marca era?:</label>
+        <input list="browsers" name="browser" id="browser">
+        <datalist id="browsers">
+            <option value="specialized">
+            <option value="trek">
+            <option value="merida">
+            <option value="scott">
+            <option value="giant">
+            <option value="cube">
+            <option value="lapierre">
+            <option value="orbea">
+            <option value="cannondale">
+            <option value="bmc">
+            <option value="canyon">
+            <option value="look">
+            <option value="protek">
+            <option value="megamo">
+            <option value="pinarello">
+            <option value="bianchi">
+            <option value="bh">
+            <option value="factor">
+            <option value="ghost">
+            <option value="cervélo">
+            <option value="argon">
+        </datalist>
+        <input type="submit">
+    </form>
+</body>
+</html>
